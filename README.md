@@ -1,0 +1,3 @@
+# ActionScript NullPointerException Bug
+
+This repository demonstrates a common error in ActionScript related to its loose typing system.  When a function is called with a null value for a parameter that is not explicitly checked, it can lead to unexpected null pointer exceptions later in the code.  This is especially problematic when dealing with complex object graphs or when interacting with external data sources that may contain null values.  The bug example and its solution are provided to illustrate a best practice for handling null values in ActionScript 3.
